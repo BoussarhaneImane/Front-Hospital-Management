@@ -1,8 +1,6 @@
 {
-     "build": {
-       "env": {
-         "VITE_PUBLIC_VARIABLE": "value"
-       }
-     }
+     "rewrites": [
+       { "source": "/(.*)", "destination": "/" }
+     ]
    }
    
