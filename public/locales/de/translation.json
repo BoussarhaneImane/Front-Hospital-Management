@@ -1,0 +1,28 @@
+{
+     "welcome": "Willkommen",
+     "patients": "Patienten",
+     "appointments": "Termine",
+     "addPatient": "Patient hinzufügen",
+     "addAppointment": "Termin hinzufügen",
+     "name": "Name",
+     "age": "Alter",
+     "gender": "Geschlecht",
+     "typeOfIllness": "Krankheitsart",
+     "diagnosis": "Diagnose",
+     "arrivalTime": "Ankunftszeit",
+     "edit": "Bearbeiten",
+     "delete": "Löschen",
+     "doctor": "Arzt",
+     "date": "Datum",
+     "purpose": "Zweck",
+     "save": "Speichern",
+     "editPatient": "Patient bearbeiten",
+     "editAppointment": "Termin bearbeiten",
+     "language": "Sprache",
+     "viewPatients": "Patienten anzeigen",
+     "viewAppointments": "Termine anzeigen",
+      "intro": "Willkommen bei unserer Anwendung! Wir freuen uns, Sie hier zu haben.",
+      "Male": "Männlich",
+      "Female": "Weiblich"
+   }
+   

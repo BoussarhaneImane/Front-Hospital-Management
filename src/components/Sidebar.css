@@ -1,0 +1,44 @@
+.boxi{ box-shadow: 0 2px 8px rgba(162, 161, 161, 0.729);  }
+.close-button {
+     position: relative;
+     left: 12rem;
+     font-size: 2rem;
+     margin-left: auto;
+     transition: transform 0.2s ease-in-out;
+   }
+   
+   .close-button:hover {
+     animation: vibrate 0.1s linear infinite;
+   }
+   
+   .open-button {
+     font-weight: bold;
+     transition: transform 0.2s ease-in-out;
+     margin-left: 0.5rem;
+   }
+   
+   .open-button:hover {
+     animation: vibrate 0.1s linear infinite;
+   }
+   
+   @keyframes vibrate {
+     0% { transform: translateX(0); }
+     25% { transform: translateX(-2px); }
+     50% { transform: translateX(2px); }
+     75% { transform: translateX(-2px); }
+     100% { transform: translateX(0); }
+   }
+   
+   .sous-bar {
+     margin-left: 1rem; /* Default margin */
+     transition: margin-left 0.3s ease-in-out;
+     width: 100%;
+     max-width: 70rem;
+     min-width: 20rem; /* Minimum width for responsive mode */
+   }
+   
+   /* When Sidebar is open */
+   .sidebar-open ~ .sous-bar {
+     margin-left: 16rem; /* Adjust based on your sidebar width */
+   }
+   

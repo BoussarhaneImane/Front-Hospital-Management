@@ -1,0 +1,61 @@
+/* Styles for the background covering full viewport */
+#homeY {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw; /* Full width */
+     height: 50rem;
+     padding: 1rem;
+   
+
+ }
+ 
+ /* Form container styles */
+ .form-container {
+     width: 100%;
+     max-width: 400px; /* Limit max width for the form */
+     padding: 1.5rem;
+     border-radius: 8px;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+     background-color: var(--bg-color, white); /* Background color for the form */
+ }
+ 
+ /* Responsive settings for large screens (above 1024px) pcs */
+ @media (min-width: 1024px) {
+     #homeY {
+         margin-left: 16rem;
+         padding: 2rem;
+         position: relative;
+         right: 17rem;
+     
+     }
+ }
+ 
+ /* Responsive settings for tablets (between 768px and 1023px) */
+ @media (min-width: 768px) and (max-width: 1023px) {
+     #homeY {
+         margin-left: 3rem;
+         padding: 1.5rem;
+         position: relative;
+         right: 4rem;
+         bottom:7rem;
+         height: 80rem;
+     }
+ }
+ 
+ /* Responsive settings for small screens (less than 768px) */
+ @media (max-width: 767px) {
+     #homeY {
+         width: 100vw;
+         padding: 1rem;
+         margin: 0;
+         position: relative;
+         right: 1rem;
+         bottom:1rem;
+         height: 40rem;
+         
+         
+
+     }
+ }
+ 

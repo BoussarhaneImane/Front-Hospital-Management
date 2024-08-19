@@ -1,0 +1,40 @@
+
+/* Styles spécifiques à home3 */
+#home3 {
+  width: 100%; /* Largeur complète par défaut */
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1200px; /* Limite la largeur maximale pour les grands écrans */
+  box-shadow: 0 2px 8px rgba(162, 161, 161, 0.729); 
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Permet au conteneur de croître selon le contenu */
+  overflow-x: hidden; /* Évite le défilement horizontal */
+}
+
+/* Paramètres réactifs pour les grands écrans (au-dessus de 1024px) */
+@media (min-width: 1024px) {
+  #home3 {
+    margin-left: 16rem;
+    width: calc(130rem - 2rem);
+    padding: 2rem;
+  }
+}
+
+/* Paramètres réactifs pour les tablettes (entre 768px et 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #home3 {
+    margin-left: 3rem;
+    width: calc(100% - 3rem);
+    padding: 1.5rem;
+  }
+}
+
+/* Paramètres réactifs pour les petits écrans (moins de 768px) */
+@media (max-width: 767px) {
+  #home3 {
+    width: 90vw; /* Largeur complète pour les petits écrans */
+    margin-left: 2rem;
+    padding: 1rem;
+  }
+}

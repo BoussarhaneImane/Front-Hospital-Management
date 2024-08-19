@@ -1,0 +1,28 @@
+{
+     "welcome": "Bienvenue",
+     "patients": "Patients",
+     "appointments": "Rendez-vous",
+     "addPatient": "Ajouter un patient",
+     "addAppointment": "Ajouter un rendez-vous",
+     "name": "Nom",
+     "age": "Âge",
+     "gender": "Genre",
+     "typeOfIllness": "Type de maladie",
+     "diagnosis": "Diagnostic",
+     "arrivalTime": "Heure d'arrivée",
+     "edit": "Éditer",
+     "delete": "Supprimer",
+     "doctor": "Médecin",
+     "date": "Date",
+     "purpose": "Motif",
+     "save": "Enregistrer",
+     "editPatient": "Modifier le patient",
+     "editAppointment": "Modifier le rendez-vous",
+     "language": "Langue",
+     "viewPatients": "Voir les patients",
+     "viewAppointments": "Voir les rendez-vous",
+     "intro": "Bienvenue dans notre application ! Nous sommes ravis de vous avoir ici.",
+     "Male": "Homme",
+     "Female": "Femme"
+   }
+   

@@ -1,0 +1,33 @@
+@import 'tailwindcss/tailwind.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure the body and html take the full height of the viewport */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-y: auto;   /* Allow vertical scrolling */
+}
+
+/* Dark mode background and text color */
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Card styling */
+.card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode card styling */
+.dark .card {
+  background-color: #333;
+  color: #fff;
+}

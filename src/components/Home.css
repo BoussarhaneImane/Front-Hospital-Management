@@ -1,0 +1,90 @@
+
+
+/* Default settings for the home component */
+#home {
+  width: 100%; /* Full width by default */
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1200px; /* Limit max width for larger screens */
+  box-shadow: 0 2px 8px rgba(162, 161, 161, 0.729); 
+}
+
+/* Container for the top section (sous-bar) */
+.sous-bar {
+  width: 100%;
+  padding: 1rem;
+  margin: 0;
+}
+
+/* Responsive settings for large screens (above 1024px) pcs*/
+@media (min-width: 1024px) {
+  #home {
+    margin-left: 16rem;
+    width: calc(130rem - 2rem);
+    padding: 2rem;
+  }
+
+  .sous-bar {
+    margin-left: 0;
+    width: calc(100% - 12.5rem); /* Account for sidebar on large screens */
+  }
+}
+
+/* Responsive settings for tablets (between 768px and 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #home {
+    margin-left: 3rem;
+    width: calc(100% - 3rem);
+    padding: 1.5rem;
+   
+  }
+
+  .sous-bar {
+    margin-left: 0;
+    width: calc(100% - 8rem); /* Adjusted for tablet screens */
+   
+  }
+}
+
+/* Responsive settings for small screens (less than 768px) */
+@media (max-width: 767px) {
+  #home {
+    width: 100vw; /* Full width for small screens */
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .sous-bar {
+    width: 100vw;
+    margin: 0;
+    padding: 0.5rem;
+  }
+}
+
+/* Additional styles for links and buttons */
+a {
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Ensures proper scaling and alignment */
+img {
+  object-fit: cover;
+}
+
+/* Ensures buttons and text inside are aligned and centered */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* Smooth transition for background and text color change */
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+/* Shadow and rounded corners for cards */
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}

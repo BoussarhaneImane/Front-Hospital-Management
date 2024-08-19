@@ -1,0 +1,26 @@
+{
+     "welcome": "Welcome",
+     "patients": "Patients",
+     "appointments": "Appointments",
+     "addPatient": "Add Patient",
+     "addAppointment": "Add Appointment",
+     "name": "Name",
+     "age": "Age",
+     "gender": "Gender",
+     "typeOfIllness": "Type of Illness",
+     "diagnosis": "Diagnosis",
+     "arrivalTime": "Arrival Time",
+     "edit": "Edit",
+     "delete": "Delete",
+     "doctor": "Doctor",
+     "date": "Date",
+     "purpose": "Purpose",
+     "save": "Save",
+     "editPatient": "Edit Patient",
+     "editAppointment": "Edit Appointment",
+     "language": "Language",
+     "viewPatients": "View Patients",
+     "viewAppointments": "View Appointments",
+      "intro": "Welcome to our application! We are glad to have you here."
+   }
+   
